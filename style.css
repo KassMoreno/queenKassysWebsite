@@ -1,29 +1,57 @@
 html{
-    background-color: rgb(83, 138, 83);
+    background-color: rgb(24, 29, 24);
 }
 #page1{
-    background: url(images/Ori.jpg) no-repeat;
+    background: url(./images/Ori.jpg) no-repeat;
     height: 800px;
     justify-content: center;
-    background-color: aqua;
 }
-h1 {
-    font-size:2cm;
+h1{
+    font-size:3cm;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    color: rgb(227, 87, 190);
-    text-align: center;
+    color: rgb(10, 32, 85);
+    text-align: end;
+    justify-content: center;
+    margin: 15px;
+    top: 0px;
+    position: relative;
+}
+.intro{
+    font-size: 1cm;
+    color:rgb(18, 46, 30);
+    text-align:end;
+    font-weight: bold;
+    margin: 0px;
+    padding: 200px 20px 100px 300px; /*top|right|bottom|left*/
+    position:relative;}
+h2{
+    font-size: medium;
+    color: rgb(202, 127, 56);
+    text-align: end;
+    margin: 0px;
+}
+#page2{
+    background: url(./images/TheLastGuardian.webp) no-repeat;
+    background-size: contain;
+    height: 1090px;
+    justify-content: center;
+}
+h3{
+    font-size: 2cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 47, 24);
+    text-align: start;
     justify-content: center;
     margin: 0px;
+    padding: 30px;
+    position: relative;
 }
-p{
+.aboutMe{
     font-size: .5cm;
-    color: rgb(28, 28, 37);
-    text-align: center;
-    margin: 0px;
+    color: rgb(15, 1, 24);
+    text-align: end;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 350px;
+    line-height: 20px;
 }
-h2 {
-    font-size: medium;
-    color: aqua;
-    margin: 0px;
-}
-

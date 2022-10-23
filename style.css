@@ -1,40 +1,29 @@
 html{
-    width: 700px;
-    height: 700px;
-    background-color: rgb(25, 50, 25);
-    padding: 0px 100px 10px 100px
+    background-color: rgb(83, 138, 83);
 }
-#page{
-    background: url(images/snow_day.jpg);
-    width: 800px;
+#page1{
+    background: url(images/Ori.jpg) no-repeat;
     height: 800px;
-    padding-left: 100px;
-}
-*body{
-    background: rgb(22, 18, 17);
-    background-size: auto;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    position: absolute;
+    background-color: aqua;
 }
-h1 { /*Raise to top corner*/
+h1 {
     font-size:2cm;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    color: rgb(221, 130, 185);
-    position: absolute;
-    top: 0px;
-    left: 120px;
+    color: rgb(227, 87, 190);
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+p{
+    font-size: .5cm;
+    color: rgb(28, 28, 37);
+    text-align: center;
+    margin: 0px;
 }
 h2 {
     font-size: medium;
     color: aqua;
-    top: 10px;
-    left: 0px;
+    margin: 0px;
 }
-p{
-    color: rgb(49, 49, 119);
-    top: 120px;
-    left: 120px;
-    position: absolute;
-}
+

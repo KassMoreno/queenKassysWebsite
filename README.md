@@ -1,3 +1,3 @@
-This is my first website!
--Attempting to make this site a fun portfolio.
--Best viewed on desktop from 80%-100% zoom (working on a solution)
+1)This is my first website!
+2) Attempting to make this site a fun portfolio.
+3)Still working to fix zoom compatibiity.

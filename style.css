@@ -11,7 +11,14 @@ html{
 }
 #page2{
     background: url(./images/TheLastGuardian.webp) no-repeat;
-    height: 1090px;
+    height: 1500px;
+    background-size:cover;
+    position: relative;
+    justify-content: center;
+}
+#page3{
+    background: url(./images/Skyrim.jpg) no-repeat;
+    height: 1500px;
     background-size:cover;
     position: relative;
     justify-content: center;
@@ -44,7 +51,7 @@ h3{
     color:rgb(18, 46, 30);
     height: 800px;
     width: 2100px;
-    left: 0px;
+    left: 50px;
     top: 150px;
     position: absolute;
     justify-content: center;
@@ -73,4 +80,13 @@ h3{
     text-align: end;
     font-weight: bold;
     
+}
+.projects{
+    background-color:rgb(18, 46, 30);
+    height: 800px;
+    width: 2200px;
+    left: 0px;
+    top: 150px;
+    position: absolute;
+    justify-content: center;
 }

@@ -5,28 +5,28 @@ html{
     justify-content: center;
 }
 #page1{
-    background: url(./images/Ori.jpg) no-repeat;
+    background: url(./Images/Ori.jpg) no-repeat;
     height: 1500px;
     background-size: cover;
     position:relative;
     justify-content: center;
 }
 #page2{
-    background: url(./images/TheLastGuardian.webp) no-repeat;
+    background: url(./Images/TheLastGuardian.webp) no-repeat;
     height: 1500px;
     background-size:cover;
     position: relative;
     justify-content: center;
 }
 #page3{
-    background: url(./images/Uncharted.jpg) no-repeat;
+    background: url(./Images/Uncharted.jpg) no-repeat;
     height: 1500px;
     background-size:cover;
     position: relative;
     justify-content: center;
 }
 #page4{
-    background: url(./images/Fe.png);
+    background: url(./Images/Fe.png);
     height: 1500px;
     background-size:cover;
     position: relative;
@@ -103,7 +103,7 @@ h3{
     justify-content: center;
 }
 .links{
-    font-size: 4cm;
+    font-size: 3cm;
     padding-top:10px;
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   

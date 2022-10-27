@@ -1,6 +1,8 @@
 html{
-    background-color: rgb(24, 29, 24);
-    max-zoom:initial;
+    background-color: rgb(5,8,55);
+    zoom:fit-content;
+    position: relative;
+    justify-content: center;
 }
 #page1{
     background: url(./images/Ori.jpg) no-repeat;
@@ -17,7 +19,14 @@ html{
     justify-content: center;
 }
 #page3{
-    background: url(./images/Skyrim.jpg) no-repeat;
+    background: url(./images/Uncharted.jpg) no-repeat;
+    height: 1500px;
+    background-size:cover;
+    position: relative;
+    justify-content: center;
+}
+#page4{
+    background: url(./images/Fe.png);
     height: 1500px;
     background-size:cover;
     position: relative;
@@ -32,13 +41,8 @@ h1{
     padding: 30px;
     position: relative;
 }
-h2{
-    font-size: 3cm;
-    color: rgb(202, 127, 56);
-    margin: 0px;
-}
 h3{
-    font-size: 2cm;
+    font-size: 3cm;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(167, 47, 24);
     text-align: start;
@@ -47,15 +51,29 @@ h3{
     padding: 30px;
     position: relative;
 }
+.navPanel{
+    font-size: 1.5cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.navPanel a{
+    background-color: rgb(179, 236, 132);
+    justify-content: center;
+}
+returnToTop{
+    font-size: 1.5cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    justify-content: right;
+}
 .intro{
     color:rgb(18, 46, 30);
-    height: 800px;
-    width: 2100px;
-    left: 50px;
-    top: 150px;
-    position: absolute;
     justify-content: center;
-    /* font inside class */
+    margin: 0px;
+    padding: 100px;
+    position: relative;
     font-size: 2cm;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     -webkit-text-stroke: 2px;
@@ -66,26 +84,39 @@ h3{
 }
 .aboutMe{
     color: rgb(167, 47, 24);
-    height: 800px;
-    width: 1300px;
-    left: 900px;
-    top: 0px;
-    position:absolute;
     justify-content: center;
-    /* font inside class */
-    font-size: 1.1cm;
+    margin: 0px;
+    padding: 30px;
+    position: relative;
+    font-size: 1.5cm;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: rgb(0,0,0);
-    text-align: end;
+    text-align: center;
     font-weight: bold;
-    
 }
 .projects{
-    height: 800px;
-    width: 2200px;
-    left: 0px;
-    top: 150px;
+    padding-left:60%;
+    padding-top:15%;
     position: absolute;
     justify-content: center;
 }
+.links{
+    font-size: 4cm;
+    padding-top:10px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    text-align: center;
+    font-weight: bold;
+}
+.links a{
+    color:rgb(255,107,196);
+    background-color: rgb(5,8,55);
+    justify-content: center;
+}
+.links object{
+    height: 900px;
+    width: 900px;
+}
+
+

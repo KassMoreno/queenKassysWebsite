@@ -61,8 +61,9 @@ h3{
     background-color: rgb(179, 236, 132);
     justify-content: center;
 }
-returnToTop{
+.returnToTop{
     font-size: 1.5cm;
+    margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;

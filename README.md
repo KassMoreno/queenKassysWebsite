@@ -1,3 +1,1 @@
-1)This is my first website!
-2) Attempting to make this site a fun portfolio.
-3)Still working to fix zoom compatibiity.
+This is my first website created from scratch. It's purpose is to showcase my experience and knowledge as an unofficial portfolio.
